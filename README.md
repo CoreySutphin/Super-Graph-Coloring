@@ -2,10 +2,12 @@
 
 This problem tackles the problem of coloring a graph such that for each edge `(u,v)` in the graph `u` and `v` do not have the same color. Furthermore this program should return the minimum number of colors needed to color the graph in addition to the initial colors supplied.
 
-## Usage
-
+## Installation
 The main program requires no dependencies, however the helper script to generate the input requires the `python-igraph` dependency.
 
+There is a `requirements.txt` file provided for convenience, simply run `pip install -r requirements.txt`.
+
+## Usage
 To run the program with a manually entered graph, simply run `python super-graph-coloring.py` and enter the graph into STDIN in the following format:
 
 ```
